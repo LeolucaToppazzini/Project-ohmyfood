@@ -212,6 +212,7 @@ body {
     align-items: center;    
     color: #fff;
     left: -10px;
+    font-size: 14px;
 
 }
 
@@ -292,7 +293,7 @@ body {
   bottom: 0; left: 0;
   width: 50px;
   height: 2px;
-  background-color: green;
+  background-color: #99E2D0;
   
 }
 .containerCards-index {
@@ -344,8 +345,8 @@ body {
 }
 .myButton-new {
 	box-shadow:inset 0px 1px 0px 0px #9acc85;
-	background:linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
-	background-color:#74ad5a;
+	background:linear-gradient(to bottom, #99E2D0 5%, #94e2cf 100%);
+	background-color:#99E2D0;
 	border-radius:6px;
 	display:inline-block;
 	position: absolute;
