@@ -154,6 +154,9 @@ body {
   position: relative;
   top: 1px;
 }
+#how-w{
+  padding-left: 20px;
+}
 
 
 .containerFilters {
@@ -162,7 +165,7 @@ body {
   display: flex;
 
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   /* flex-flow: column; */
   flex-direction: column;
 
@@ -173,7 +176,7 @@ body {
 }
 
 .flex-container {
-  width: 100%;
+  width: 90%;
   background-color: #f6f6f6;
   border-radius: 17px;
 
@@ -192,6 +195,24 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: inherit;
   gap: 15px;
+  position: relative;
+}
+.num-ico{
+  position: absolute;
+  background-color:#a45cdb;
+   /*border:1px solid red; */   
+    height:20px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:20px;
+    display: flex;
+    
+    justify-content: center; 
+    align-items: center;    
+    color: #fff;
+    left: -10px;
+
 }
 
 
@@ -285,6 +306,7 @@ body {
   background-color: #f6f6f6;
   width: 100%;
   gap: 5px;
+  padding-bottom: 30px;
 }
 .containerCards {
   display: flex;
